@@ -34,13 +34,17 @@ img{
 
 h1{
     position: absolute;
-    margin-left: 45%;
+    margin-left: 40%;
     margin-right: auto;
     color:rgb(218, 189, 76);
     padding-top: 30px;
     font-size: 40px;
 }
-
+@media screen and (max-width: 400px) {
+    h1{
+        font-size: 30px;
+    }
+}
 
 
 iframe{
